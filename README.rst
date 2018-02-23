@@ -1,5 +1,5 @@
 ================================
-Welcome to python-binance v0.6.6
+python-binance
 ================================
 
 .. image:: https://img.shields.io/pypi/v/python-binance.svg
@@ -20,36 +20,16 @@ Welcome to python-binance v0.6.6
 .. image:: https://img.shields.io/pypi/pyversions/python-binance.svg
     :target: https://pypi.python.org/pypi/python-binance
 
-This is an unofficial Python wrapper for the `Binance exchange REST API v1/3 <https://github.com/binance-exchange/binance-official-api-docs>`_. I am in no way affiliated with Binance, use at your own risk.
-
-If you came here looking for the `Binance exchange <https://www.binance.com/?ref=10099792>`_ to purchase cryptocurrencies, then `go here <https://www.binance.com/?ref=10099792>`_. If you want to automate interactions with Binance stick around.
-
-Source code
+This is a fork of
   https://github.com/sammchardy/python-binance
 
-Documentation
+Binance API
   https://python-binance.readthedocs.io/en/latest/
 
 Binance API Telegram
   https://t.me/binance_api_english
 
-Blog with examples
-  https://sammchardy.github.io
 
-Make sure you update often and check the `Changelog <https://python-binance.readthedocs.io/en/latest/changelog.html>`_ for new features and bug fixes.
-
-Features
---------
-
-- Implementation of all General, Market Data and Account endpoints.
-- Simple handling of authentication
-- No need to generate timestamps yourself, the wrapper does it for you
-- Response exception handling
-- Websocket handling with reconnection and multiplexed connections
-- Symbol Depth Cache
-- Historical Kline/Candle fetching function
-- Withdraw functionality
-- Deposit addresses
 
 Quick Start
 -----------
@@ -128,27 +108,3 @@ Quick Start
     klines = client.get_historical_klines("NEOBTC", KLINE_INTERVAL_1WEEK, "1 Jan, 2017")
 
 For more `check out the documentation <https://python-binance.readthedocs.io/en/latest/>`_.
-
-Donate
-------
-
-If this library helped you out feel free to donate.
-
-- ETH: 0xD7a7fDdCfA687073d7cC93E9E51829a727f9fE70
-- LTC: LPC5vw9ajR1YndE1hYVeo3kJ9LdHjcRCUZ
-- NEO: AVJB4ZgN7VgSUtArCt94y7ZYT6d5NDfpBo
-- BTC: 1Dknp6L6oRZrHDECRedihPzx2sSfmvEBys
-
-Other Exchanges
----------------
-
-If you use `Quoinex <https://accounts.quoinex.com/sign-up?affiliate=PAxghztC67615>`_
-or `Qryptos <https://accounts.qryptos.com/sign-up?affiliate=PAxghztC67615>`_ check out my `python-quoine <https://github.com/sammchardy/python-quoine>`_ library.
-
-If you use `Kucoin <https://www.kucoin.com/#/?r=E42cWB>`_ check out my `python-kucoin <https://github.com/sammchardy/python-kucoin>`_ library.
-
-If you use `IDEX <https://idex.market>`_ check out my `python-idex <https://github.com/sammchardy/python-idex>`_ library.
-
-If you use `BigONE <https://big.one>`_ check out my `python-bigone <https://github.com/sammchardy/python-bigone>`_ library.
-
-.. image:: https://analytics-pixel.appspot.com/UA-111417213-1/github/python-binance?pixel&useReferer
